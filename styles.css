@@ -1,0 +1,134 @@
+.container-bananatalk{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: whitesmoke;
+    z-index: 0;
+  }
+  
+  .background-bananatalk{
+    width: 60vw;
+    height: 80vh;
+    background:linear-gradient( rgba(0, 255, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%);
+    position: fixed;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .menu__logo {
+    /* position: absolute; */
+    display: inline-flex;
+    color: inherit;
+    width:max-content;
+    margin-top: 15vh;
+    margin-left: -71px;
+    text-decoration: none;
+    transform: translate(1vw,1vh) rotate(-91deg);
+    font-size: 2rem;
+    color: white;
+    font-family:'NoeDisplay-Medium','Sans-serif';
+    
+  }
+  
+  .menu__logoSpace {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    width: 20vw;
+  }
+  
+  
+  .menu__socialItems {
+    display: block;
+    color: #979799;
+    position: fixed;
+    padding-bottom: 6%;
+    width: 100%;
+    height: 100%;
+    bottom:0vh;
+    margin-left: -7%;
+  }
+  
+  .menu__socialLink {
+    position: relative;
+    display: block;
+    /* width: 26vw;
+    height: 26vh; */
+    /* margin: 0 auto; */
+    color: inherit;
+    transition: color .2s;
+  }
+  
+  .menu__socialIcon {
+      width: auto;
+      height: auto;
+    position: absolute;
+    margin-top: 40%;
+    /* left: 10%; */
+    margin-left: 1%;
+    text-align: center;
+    color: #e5e7eb;
+    font-size: 1rem;
+    /* align-items: center; */
+  }
+  
+  .body-frame-bananatalk{
+    position:absolute;
+    z-index: 2;
+    width: 80%;
+    height: 80%;
+    display: block;
+    top:10%;
+    left:10%;
+    background-color: white;
+    text-align: center;
+
+  }
+  
+  .heading-bananatalk{
+    justify-content: center;
+    font-size: 2rem;
+    font-family:'NoeDisplay-Medium','Sans-serif';
+    padding-top: 2%;
+  }
+  
+  .bananatalk-textarea{
+    display: block;
+    padding-top: 3%;
+  }
+  
+  .bananatalk-button{
+    padding-top: 4%;
+  }
+  .bananatalk-displayresult{
+    padding-top: 1%;
+  }
+  .fotter-bananatalk{
+   padding-top: 4%;
+   font-size: 12px;
+  }
+  
+  .bananatalk-translatetext{
+    padding-top: 4%;
+    
+  }
+
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .menu_icon_style{
+    display: inline-flex;
+    width: 8%;
+    height: 8%;
+  }
+  
